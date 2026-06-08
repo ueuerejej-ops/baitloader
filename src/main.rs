@@ -219,7 +219,7 @@ while let Ok(text) = self.rx_catalog.try_recv() {
 
                 Page::Download => {
                    ui.horizontal(|ui| {
-        ui.heading("Список приложений");
+        ui.heading("Список  картинок");
         
         if ui.button("reloade page").clicked() {
             self.catalog_raw = "Обновление...⏳".to_string();
